@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">    
+        <title>
+            Trial-4
+        </title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine">
+        <link rel="stylesheet" href="styling_4.css">
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <!--Navgation bar-->
+        <div class="navbar navbar-expand-sm navbar-light">
+            <div class="container">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+                    <span class="navbar-toggler-icon"></span>    
+                </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav sr-auto">
+                        <li class="list-item">
+                            <a href="#" class="nav-link"><i class="fas fa-home"> Home</i></a>
+                        </li>
+                        <li class="list-item">
+                            <a href="#" class="nav-link"><i class="fas fa-bolt"> Moments</i></a>
+                        </li>
+                        <li class="list-item">
+                            <a href="#" class="nav-link"><i class="fas fa-bell"> Notifications</i></a>
+                        </li>
+                        <li class="list-item">
+                            <a href="#" class="nav-link"><i class="fas fa-envelope"> Messages</i></a>
+                        </li>
+                    </ul>
+                </div>
+                <ul class="navbar-nav pull-center">
+                    <li class="nav-item">
+                        <a href="#" class="navbar-brand"><i class="fab fa-twitter"></i></a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav pull-right">
+                    <li class="nav-item">
+                        <form class="form-inline" action="/action_page.php">
+                            <input class="form-control mr-md-2" type="text" placeholder="Search twitter">
+                        </form>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                            <i class="fas fa-user-circle">Profile</i>
+                        </a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="#">profile</a>
+                            <a class="dropdown-item" href="#">list</a>
+                            <a class="dropdown-item" href="#">settings</a>
+                        </div>
+                    </li>
+                    <li class="nav-tem">
+                        <button class="btn btn-success btn-setting" type="submit"><i class="fas fa-feather-alt">Tweet</i></button>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!--three sections-->
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 trial_4">
+                    <div class="left-section padding card">
+                        <img class="card-img-top" src="img/background.png">
+                        <div class="card-body">
+                            <div class="profile-pic pull-left">
+                                <img src="img/team1.png" alt="profile picture">
+                            </div>
+                            <div class="card-title text-center"><h3>Sethu Surya Teja</h3><div><h5>@sethusuryateja</h5></div></div>
+                            <ul class="list-inline text-center">
+                                <li class="list-inline-item">
+                                    <h6>Tweets</h6>
+                                    <div>
+                                        35
+                                    </div>
+                                </li>
+                                <li class="list-inline-item">
+                                    <h6>Following</h6>
+                                    <div>
+                                        250
+                                    </div>
+                                </li>
+                                <li class="list-inline-item">
+                                    <h6>Followers</h6>
+                                    <div>
+                                        20
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-5">
+                    <div class="middle-section padding">
+                            <div class="card-above">
+                                <form class="form-inline setting-form">
+                                    <input class="form-control" type="comment" placeholder="Write your tweet">
+                                    <button class="btn btn-primary btn-move float-right" type="btn">tweet</button>
+                                </form>
+                            </div>
+                            <div class="feed">
+                                <img class="test-image"src="img/team2.png" alt="test image for checking purpose">
+                                <p class="caption">Looking at mobile, eventhough she had lot of work to do P:)</p>
+                                <button class="btn btn-default btn-move"><i class="fas fa-comment"></i></button>
+                                <button class="btn btn-default btn-move"><i class="fas fa-thumbs-up"></i></button>
+                                <button class="btn btn-default btn-move"><i class="fas fa-retweet"></i></button>
+                                <button class="btn btn-default btn-move float-right"><i class="fas fa-share-alt"></i></button>
+                            </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="right-section padding text-left">
+                        <div class='ads'>
+                            <h3 class="text-center"><a href="#">Trending Ads</a></h3>
+                        <ul class="list-unstyled trending">
+                            <li class="topnews"><a href="#">Top News</a></li>
+                            <li class="famousperson"><a href="#">Famous persons</a></li>
+                            <li class="links"><a href="#">Click me</a></li>
+                            <li class='mislineous-articles'><a href="#">Trending articles</a>
+                        </ul>
+                        </div>
+                        <footer>
+                            <div class="footer text-center">
+                                <hr class="my-4 light">
+                                <h4>&copy;twitter</h4>
+                                <hr class="my-4 light">
+                                <p>Address</p>
+                                <p>522 20l</p>
+                                <p>+91 99839203849</p>
+                            </div>
+                        </footer>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--footer-->
+    </body>
+</html>

@@ -1,0 +1,88 @@
+.profile-pic img{
+    width:5em;
+    height:5em;
+    border-radius:100px;
+    margin-top:-60px;
+    margin-left:-10px;
+}
+.btn-setting{
+    border-radius:100em;
+    background-color:rgb(36, 63, 82);
+    border-color:rgb(36, 63, 82);
+}
+.setting-form .form-control{
+    width:calc(96% - 70px);
+    margin-right:2%;
+}
+.setting-form .btn-move{
+    width:70px;
+}
+.test-image{
+    width:100%;
+}
+.setting-form{
+    margin-bottom:10px;
+}
+.setting-form .btn-move{
+  border-radius:50px;
+  background-color:rgb(7, 177, 163);
+  border-color:rgb(7,177,163);
+}
+.feed .btn-move{
+    border-radius:75%;
+    margin-top:0;
+    background-color:gainsboro;
+    color:rgb(1, 1, 51);
+    border-color:gainsboro;
+}
+.caption{
+    padding-bottom:0;
+}
+.middle-section{
+    background-color:gainsboro;
+    padding:2%;
+    margin-bottom:10px;
+}
+.btn-move .fa-thumbs-up,.btn-move .fa-share-alt,.btn-move .fa-retweet,.btn-move .fa-comment{
+    font-size:1.5em;
+}
+.container{
+    margin-top:10px;
+}
+.trial_4{
+    margin-bottom:10px;
+}
+.navbar-light{
+    background-color:rgb(76, 80, 79);
+    color:white !important;
+}
+.navbar-nav .fa-home,.navbar-nav .fa-bolt,.navbar-nav .fa-bell,.navbar-nav .fa-envelope,.fa-user-circle{
+    color:white !important;
+}
+.fa-twitter{
+    color:rgba(5, 121, 253, 0.911);
+    font-size:2em;
+}
+body{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.right-section .trending{
+    background-color:gainsboro;
+    padding:10%;
+}
+.footer{
+    background-color:rgb(76, 80, 79);
+    color:white;
+}
+.footer .light{
+    border:3px ridge white;
+}
+.ads{
+    background-color:gainsboro;
+}
+.ads h3{
+    text-decoration:underline;
+}
+.pull-center{
+    float: center;
+}

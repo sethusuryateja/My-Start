@@ -1,0 +1,35 @@
+
+.custom-list{
+    text-align:left;
+}
+
+body{
+    background-color:rgb(232,234,300);
+}
+.written-text{
+    padding-left:10px;
+    margin-bottom:0px;
+}
+.written-text-2{
+    border:2px dotted blue;
+}
+
+.share-it{
+    float:right;
+}
+.btn{
+    margin-bottom:5px;
+}
+.first-column,.second-column,.third-column{
+    
+    padding:1%;
+}
+.section-1-2{
+    padding-top:2%;
+}
+.section-3{
+    text-align:center;
+}
+.custom-table{
+    margin-top:2%;
+}

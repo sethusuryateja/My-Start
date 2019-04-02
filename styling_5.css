@@ -1,0 +1,23 @@
+.padding {
+    margin: 5%;
+    text-align: left;
+    padding: 2.5%;
+    background-color: black;
+    width: 350px;
+}
+.list-unstyled {
+    color:orange;
+}
+.strike-off{
+  text-decoration:line-through;  
+}
+.btn{
+    width:70px;
+}
+.column-control{
+    width:calc(95%-70px)!important;
+}
+li:hover{
+    cursor:pointer;
+    background-color: grey;
+}

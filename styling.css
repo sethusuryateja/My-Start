@@ -1,0 +1,43 @@
+.sub-col {
+    border:2px solid blue;
+    text-align:center;
+    min-height:500px;
+}
+.sub-gel{
+    min-height:250px;
+    margin:5px;
+    border:2px solid green;    
+}
+.sub-fel {
+    min-height:50px;
+    margin:5px;
+    border:2px solid green; 
+}
+.dashboard-left{
+    float:left;
+    width:300px;
+    background-color:grey;
+
+} 
+.module {
+    height:50%;
+
+}
+.content {
+    margin-top:30px;
+    text-align:center;
+    margin-bottom:30px;
+}
+.content a {
+    color:yellowgreen;
+}
+.modified-container{
+    padding-top:20px;
+}
+.Moudule-feed{
+    width:900px;
+}
+.col-md-3{
+    float:right;
+    border:2px solid red;
+}
